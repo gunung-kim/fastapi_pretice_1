@@ -1,6 +1,6 @@
 name : CI
 on:
-  push:
+  push: # action이 실행되는 주기를 push 할때마다 실행한다
 jobs:
   static-analysis:
     runs-on: ubuntu-22.04
