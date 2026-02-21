@@ -48,7 +48,7 @@ jobs:
 
       - name: Install Poetry
         run: |
-          curl -sSL https://install.python-poetry.org | python - --version
+          curl -sSL https://install.python-poetry.org | python - --version 1.8.5
 
       - name: Register Poetry bin
         run: echo "${HOME}/.local/bin" >> $GITHUB_PATH
